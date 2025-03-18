@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+
+
+
+   .nav-bar{
+    height: 85px;
+    width: 100%;
+    background-color: rgb(210, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-bar a.brand-logo{
+    position: relative;
+    left: -550px;
+}
+
+.nav-bar h1{
+    font-size: 40px;
+    position: relative;
+    left: -50px;
+   
+    font-weight: 700;
+}
+ .Contact{
+    height: 100vh;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Contact .content{
+        height: 600px;
+        width: 1000px;        
+        background-color: rgb(137, 204, 164);
+       
+}
+
+.Contact .content img{
+     border: 5px solid black;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+.Contact .content  h1{
+
+ font-size: 50px;
+ position:relative;
+ left: 550px;
+ top: -380px;
+ font-weight: 600;
+ color: rgb(0, 0, 0);
+}
+
+
+ .Contact .box{
+    height: 440px;
+    width: 463px;
+    border: 25px solid  rgb(19, 5, 5);
+    position: relative;
+    left: 510px;
+    top: -352px;
+    border-left-color: rgb(137, 204, 164);
+    border-top-color: rgb(137, 204, 164);
+    border-right-color: rgb(137, 204, 164);
+    border-bottom-color: rgb(137, 204, 164);
+    box-shadow: 0 0 10px 0px rgb(0, 0, 0);
+
+}
+
+
+
+.Contact .content select {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    width: 90px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+
+.Contact .box input{
+    display: flex;
+    font-size: 17px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(19, 5, 5);
+}
+
+.Contact .box button{
+    margin-top: 80px;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(19, 5, 5);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: -180px;
+
+}
+.Contact .box button:hover{
+    background-color: brown;
+    color: black;
+}
+.Contact .box i{
+
+    position: static;
+    left: 1px;
+   
+    
+}
+.Contact .box a#pass{
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.Contact .com{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 270px;
+    top: -150px;
+    color: rgb(19, 5, 5);
+}
+.Contact .com a{
+    text-decoration: none;
+    color: rgb(19, 5, 5);
+}
+.Contact .com2{
+    height: 100px;
+    width: 120px;
+    position: relative;
+    left: 270px;
+    top: -140px;
+    color: rgb(19, 5, 5);
+} 
+
+
+.copyright{
+
+    background-color: rgb(215, 156, 98);
+    height: 230px;
+    width: 100%;
+}
+
+.copyright img{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.copyright p{
+    position: relative;
+    left: 170px;
+    top: 5px;
+}
+.copyright i{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    left: 1250px;
+    top: -20px;
+    padding-left: 20px;
+}
+
+.copyright .foot{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    padding-left: 20px;
+}
+
+.copyright .foot:hover{
+    color: maroon;
+}
